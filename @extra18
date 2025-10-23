@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+#include<limits.h>
+int main()
+{
+
+int max = INT_MIN;
+
+clrscr();
+ printf("%d",max);
+ getch ();
+ return 0 ;
+ }

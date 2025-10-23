@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+ int arr[] = { 2,32,4,6,56,11,6};
+ clrscr();
+
+  for( int i = 0 ; i < 7 ; i++)
+  {
+   if (arr[i]%10==0)
+   {
+     arr[i] = arr[i] + 10 ;
+     printf("%d\n",arr[i]);
+     }else if (arr[i] %10 != 0)
+     {
+      arr[i] = arr[i]*2 ;
+      printf("%d\n",arr[i]);
+      }
+       }
+       printf("%d\n",arr[i]);
+
+       getch ();
+       return 0;
+       }
