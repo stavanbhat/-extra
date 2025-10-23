@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+ int main()
+ {
+  int marks[3];
+  clrscr();
+
+   printf("Enter mat marks");
+   scanf("%d\n",&marks[0]);
+
+   printf("Enter phy marks");
+   scanf("%d\n",&marks[1]);
+
+   printf("Enter che marks");
+   scanf("%d\n",&marks[2]);
+
+   printf( "maths = %d , phy = %d , che = %d  \n",marks[0],marks[1],marks[2]);
+
+   getch();
+   return 0;
+   }

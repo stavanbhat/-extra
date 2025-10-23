@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<conio.h>
+int main ()
+{
+ int marks[10] , i ;
+ clrscr();
+
+  for( i = 0 ; i<10 ; i++)
+  {
+   printf("marks of arr[%d]",i );
+   scanf("%d",&marks[i]);
+   }
+  if(marks[i]<35)
+  {
+  printf("%d\n",marks[i]);
+  }
+
+    getch();
+    return 0;
+    }

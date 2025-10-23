@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+int main ()
+{
+ int arr[6] , i ;
+ clrscr();
+
+ for( i = 0 ; i<=arr[6] ; i++)
+ {
+ printf("Enter value of arr[i]");
+ scanf("%d\n",&arr[i]);
+  }
+
+ getch();
+ return 0;
+ }
+

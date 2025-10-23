@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+ float i , price[3];
+ clrscr();
+
+  printf("Enter three prises\n:");
+  scanf("%f",&price[0]);
+  scanf("%f",&price[1]);
+  scanf("%f",&price[2]);
+
+  for( i = 0 ; i<=price[i] ;i++){
+  printf(" total prise = %f\n",price[i]+price[i]*0.18);
+  }
+  getch();
+  return 0;
+  }

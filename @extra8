@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+ int i , mark[2][3] ;
+
+  mark[0][0] = 91;
+  mark[0][1] = 92;
+  mark[0][2] = 94;
+
+  mark[1][0] = 79;
+  mark[1][1] = 97;
+  mark[1][2] = 96;
+
+  for( i = 0 ; i<=[1][2] ; i++)
+  {
+  printf("%d\n",mark[i][i]);
+   }
+  getch();
+  return 0;
+  }
