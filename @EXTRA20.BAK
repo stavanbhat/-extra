@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+int main()
+{
+ char strr[] = {"I'm Indian"};
+ char i;
+ clrscr();
+
+ while(strr[i] != "\0"){
+
+ printf("%c",str[i]);
+ }
+
+ printf("%s",strr);
+ getch();
+ return 0;
+ }

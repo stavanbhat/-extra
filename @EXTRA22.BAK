@@ -1,0 +1,30 @@
+#include<stdio.h>
+#include<conio.h>
+
+
+
+
+   void nepal()
+ {
+  printf("You are nepali\n");
+  return;
+  }
+   void india()
+ {
+  printf("I am indian\n");
+  russia();
+  return;
+  }
+   void russia()
+ {
+  printf("You are russian\n");
+  nepal();
+  return;
+  }
+
+  int main()
+  {
+   india();
+   getch();
+   return 0;
+   }
